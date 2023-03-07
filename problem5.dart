@@ -8,7 +8,7 @@ void main() {
   List<int> l = (ol.difference(simpleNumber(a))).toList();
   print(resultNOK(l));
 }
-
+// NOK
 int resultNOK(List<int> l) {
   int pr = 0;
   int lcm = 0;
@@ -29,7 +29,7 @@ int resultNOK(List<int> l) {
   }
   return lcm;
 }
-
+// find simple number
 Set<int> simpleNumber(int a) {
   Set<int> l = {};
   for (int i = 2; i < a; i++) {
@@ -45,7 +45,7 @@ Set<int> simpleNumber(int a) {
   }
   return l;
 }
-
+// multiplication simple number
 int multi(Set<int> sl) {
   int a = 1;
   for (int i = 0; i <= sl.length - 1; i++) {
