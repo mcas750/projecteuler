@@ -9,8 +9,6 @@ void main() {
       int b = 2 * i * j;
       num c = pow(i, 2) + pow(j, 2);
       num s = a + b + c;
-      //print('s = $s');
-      //print('---');
       if (s == 1000) {
         w = 1;
         print('$a, $b, $c');
